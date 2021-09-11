@@ -1,0 +1,193 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.trackandtrace"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/var/www/projects/vkreate/tracesci-master/android/app/src/main/AndroidManifest.xml:13:5-77
+11-->/var/www/projects/vkreate/tracesci-master/android/app/src/main/AndroidManifest.xml:13:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/var/www/projects/vkreate/tracesci-master/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/var/www/projects/vkreate/tracesci-master/android/app/src/main/AndroidManifest.xml:4:22-64
+13
+14    <uses-feature
+14-->/var/www/projects/vkreate/tracesci-master/android/app/src/main/AndroidManifest.xml:5:5-85
+15        android:name="android.hardware.camera"
+15-->/var/www/projects/vkreate/tracesci-master/android/app/src/main/AndroidManifest.xml:5:19-57
+16        android:required="false" />
+16-->/var/www/projects/vkreate/tracesci-master/android/app/src/main/AndroidManifest.xml:5:58-82
+17    <uses-feature
+17-->/var/www/projects/vkreate/tracesci-master/android/app/src/main/AndroidManifest.xml:6:5-91
+18        android:name="android.hardware.camera.front"
+18-->/var/www/projects/vkreate/tracesci-master/android/app/src/main/AndroidManifest.xml:6:19-63
+19        android:required="false" />
+19-->/var/www/projects/vkreate/tracesci-master/android/app/src/main/AndroidManifest.xml:6:64-88
+20
+21    <uses-permission android:name="android.permission.CAMERA" />
+21-->/var/www/projects/vkreate/tracesci-master/android/app/src/main/AndroidManifest.xml:7:5-64
+21-->/var/www/projects/vkreate/tracesci-master/android/app/src/main/AndroidManifest.xml:7:22-62
+22    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+22-->/var/www/projects/vkreate/tracesci-master/android/app/src/main/AndroidManifest.xml:8:5-79
+22-->/var/www/projects/vkreate/tracesci-master/android/app/src/main/AndroidManifest.xml:8:22-76
+23    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+23-->/var/www/projects/vkreate/tracesci-master/android/app/src/main/AndroidManifest.xml:9:5-80
+23-->/var/www/projects/vkreate/tracesci-master/android/app/src/main/AndroidManifest.xml:9:22-78
+24    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+24-->/var/www/projects/vkreate/tracesci-master/android/app/src/main/AndroidManifest.xml:10:5-79
+24-->/var/www/projects/vkreate/tracesci-master/android/app/src/main/AndroidManifest.xml:10:22-77
+25    <uses-permission android:name="android.permission.VIBRATE" />
+25-->/var/www/projects/vkreate/tracesci-master/android/app/src/main/AndroidManifest.xml:11:5-65
+25-->/var/www/projects/vkreate/tracesci-master/android/app/src/main/AndroidManifest.xml:11:22-63
+26    <uses-permission android:name="android.permission.ACCESSCOARSELOCATION" />
+26-->/var/www/projects/vkreate/tracesci-master/android/app/src/main/AndroidManifest.xml:12:5-78
+26-->/var/www/projects/vkreate/tracesci-master/android/app/src/main/AndroidManifest.xml:12:22-76
+27    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+27-->[com.facebook.flipper:flipper:0.75.1] /home/krishan/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:16:5-76
+27-->[com.facebook.flipper:flipper:0.75.1] /home/krishan/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:16:22-73
+28
+29    <uses-feature
+29-->[:react-native-camera] /var/www/projects/vkreate/tracesci-master/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:14:5-16:36
+30        android:name="android.hardware.camera.autofocus"
+30-->[:react-native-camera] /var/www/projects/vkreate/tracesci-master/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:15:9-57
+31        android:required="false" />
+31-->[:react-native-camera] /var/www/projects/vkreate/tracesci-master/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:16:9-33
+32
+33    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+33-->[:react-native-get-location] /var/www/projects/vkreate/tracesci-master/node_modules/react-native-get-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-81
+33-->[:react-native-get-location] /var/www/projects/vkreate/tracesci-master/node_modules/react-native-get-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-78
+34    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+34-->[com.google.android.gms:play-services-iid:17.0.0] /home/krishan/.gradle/caches/transforms-2/files-2.1/e18b3ef1604371e7e10a2586fcf5f032/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:5-82
+34-->[com.google.android.gms:play-services-iid:17.0.0] /home/krishan/.gradle/caches/transforms-2/files-2.1/e18b3ef1604371e7e10a2586fcf5f032/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:22-79
+35    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+35-->[com.android.installreferrer:installreferrer:1.1.2] /home/krishan/.gradle/caches/transforms-2/files-2.1/150d95ff2179d66a1b5aeef5973627bb/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:5-110
+35-->[com.android.installreferrer:installreferrer:1.1.2] /home/krishan/.gradle/caches/transforms-2/files-2.1/150d95ff2179d66a1b5aeef5973627bb/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:22-107
+36
+37    <application
+37-->/var/www/projects/vkreate/tracesci-master/android/app/src/main/AndroidManifest.xml:15:5-33:19
+38        android:name="com.trackandtrace.MainApplication"
+38-->/var/www/projects/vkreate/tracesci-master/android/app/src/main/AndroidManifest.xml:16:7-38
+39        android:allowBackup="false"
+39-->/var/www/projects/vkreate/tracesci-master/android/app/src/main/AndroidManifest.xml:20:7-34
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.3.1] /home/krishan/.gradle/caches/transforms-2/files-2.1/3975ffd70914deb17405b14313b8e4ba/core-1.3.1/AndroidManifest.xml:24:18-86
+41        android:debuggable="true"
+42        android:icon="@mipmap/ic_launcher"
+42-->/var/www/projects/vkreate/tracesci-master/android/app/src/main/AndroidManifest.xml:18:7-41
+43        android:label="@string/app_name"
+43-->/var/www/projects/vkreate/tracesci-master/android/app/src/main/AndroidManifest.xml:17:7-39
+44        android:roundIcon="@mipmap/ic_launcher_round"
+44-->/var/www/projects/vkreate/tracesci-master/android/app/src/main/AndroidManifest.xml:19:7-52
+45        android:theme="@style/AppTheme"
+45-->/var/www/projects/vkreate/tracesci-master/android/app/src/main/AndroidManifest.xml:21:7-38
+46        android:usesCleartextTraffic="true" >
+46-->/var/www/projects/vkreate/tracesci-master/android/app/src/debug/AndroidManifest.xml:8:9-44
+47        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+47-->/var/www/projects/vkreate/tracesci-master/android/app/src/debug/AndroidManifest.xml:11:9-86
+47-->/var/www/projects/vkreate/tracesci-master/android/app/src/debug/AndroidManifest.xml:11:19-83
+48        <activity
+48-->/var/www/projects/vkreate/tracesci-master/android/app/src/main/AndroidManifest.xml:22:7-32:18
+49            android:name="com.trackandtrace.MainActivity"
+49-->/var/www/projects/vkreate/tracesci-master/android/app/src/main/AndroidManifest.xml:23:9-37
+50            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+50-->/var/www/projects/vkreate/tracesci-master/android/app/src/main/AndroidManifest.xml:25:9-86
+51            android:label="@string/app_name"
+51-->/var/www/projects/vkreate/tracesci-master/android/app/src/main/AndroidManifest.xml:24:9-41
+52            android:launchMode="singleTask"
+52-->/var/www/projects/vkreate/tracesci-master/android/app/src/main/AndroidManifest.xml:26:9-40
+53            android:windowSoftInputMode="adjustResize" >
+53-->/var/www/projects/vkreate/tracesci-master/android/app/src/main/AndroidManifest.xml:27:9-51
+54            <intent-filter>
+54-->/var/www/projects/vkreate/tracesci-master/android/app/src/main/AndroidManifest.xml:28:9-31:25
+55                <action android:name="android.intent.action.MAIN" />
+55-->/var/www/projects/vkreate/tracesci-master/android/app/src/main/AndroidManifest.xml:29:13-65
+55-->/var/www/projects/vkreate/tracesci-master/android/app/src/main/AndroidManifest.xml:29:21-62
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->/var/www/projects/vkreate/tracesci-master/android/app/src/main/AndroidManifest.xml:30:13-73
+57-->/var/www/projects/vkreate/tracesci-master/android/app/src/main/AndroidManifest.xml:30:23-70
+58            </intent-filter>
+59        </activity>
+60
+61        <provider
+61-->[:react-native-image-crop-picker] /var/www/projects/vkreate/tracesci-master/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-21:20
+62            android:name="androidx.core.content.FileProvider"
+62-->[:react-native-image-crop-picker] /var/www/projects/vkreate/tracesci-master/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-62
+63            android:authorities="com.trackandtrace.provider"
+63-->[:react-native-image-crop-picker] /var/www/projects/vkreate/tracesci-master/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-60
+64            android:exported="false"
+64-->[:react-native-image-crop-picker] /var/www/projects/vkreate/tracesci-master/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-37
+65            android:grantUriPermissions="true" >
+65-->[:react-native-image-crop-picker] /var/www/projects/vkreate/tracesci-master/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-47
+66            <meta-data
+66-->[:react-native-image-crop-picker] /var/www/projects/vkreate/tracesci-master/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-20:58
+67                android:name="android.support.FILE_PROVIDER_PATHS"
+67-->[:react-native-image-crop-picker] /var/www/projects/vkreate/tracesci-master/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-67
+68                android:resource="@xml/provider_paths" />
+68-->[:react-native-image-crop-picker] /var/www/projects/vkreate/tracesci-master/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-55
+69        </provider>
+70
+71        <activity
+71-->[:react-native-image-crop-picker] /var/www/projects/vkreate/tracesci-master/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:9-25:72
+72            android:name="com.yalantis.ucrop.UCropActivity"
+72-->[:react-native-image-crop-picker] /var/www/projects/vkreate/tracesci-master/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-60
+73            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+73-->[:react-native-image-crop-picker] /var/www/projects/vkreate/tracesci-master/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:13-69
+74
+75        <provider
+75-->[:react-native-image-picker] /var/www/projects/vkreate/tracesci-master/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+76            android:name="com.imagepicker.ImagePickerProvider"
+76-->[:react-native-image-picker] /var/www/projects/vkreate/tracesci-master/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-63
+77            android:authorities="com.trackandtrace.imagepickerprovider"
+77-->[:react-native-image-picker] /var/www/projects/vkreate/tracesci-master/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-71
+78            android:exported="false"
+78-->[:react-native-image-picker] /var/www/projects/vkreate/tracesci-master/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+79            android:grantUriPermissions="true" >
+79-->[:react-native-image-picker] /var/www/projects/vkreate/tracesci-master/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+80            <meta-data
+80-->[:react-native-image-crop-picker] /var/www/projects/vkreate/tracesci-master/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-20:58
+81                android:name="android.support.FILE_PROVIDER_PATHS"
+81-->[:react-native-image-crop-picker] /var/www/projects/vkreate/tracesci-master/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-67
+82                android:resource="@xml/imagepicker_provider_paths" />
+82-->[:react-native-image-crop-picker] /var/www/projects/vkreate/tracesci-master/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-55
+83        </provider>
+84        <provider
+84-->[:react-native-webview] /var/www/projects/vkreate/tracesci-master/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+85            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+85-->[:react-native-webview] /var/www/projects/vkreate/tracesci-master/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-83
+86            android:authorities="com.trackandtrace.fileprovider"
+86-->[:react-native-webview] /var/www/projects/vkreate/tracesci-master/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-64
+87            android:exported="false"
+87-->[:react-native-webview] /var/www/projects/vkreate/tracesci-master/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+88            android:grantUriPermissions="true" >
+88-->[:react-native-webview] /var/www/projects/vkreate/tracesci-master/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+89            <meta-data
+89-->[:react-native-image-crop-picker] /var/www/projects/vkreate/tracesci-master/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-20:58
+90                android:name="android.support.FILE_PROVIDER_PATHS"
+90-->[:react-native-image-crop-picker] /var/www/projects/vkreate/tracesci-master/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-67
+91                android:resource="@xml/file_provider_paths" />
+91-->[:react-native-image-crop-picker] /var/www/projects/vkreate/tracesci-master/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-55
+92        </provider>
+93
+94        <activity
+94-->[com.google.android.gms:play-services-base:17.0.0] /home/krishan/.gradle/caches/transforms-2/files-2.1/2631375de80937c90cd3a1032ab35871/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+95            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+95-->[com.google.android.gms:play-services-base:17.0.0] /home/krishan/.gradle/caches/transforms-2/files-2.1/2631375de80937c90cd3a1032ab35871/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+96            android:exported="false"
+96-->[com.google.android.gms:play-services-base:17.0.0] /home/krishan/.gradle/caches/transforms-2/files-2.1/2631375de80937c90cd3a1032ab35871/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+97            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+97-->[com.google.android.gms:play-services-base:17.0.0] /home/krishan/.gradle/caches/transforms-2/files-2.1/2631375de80937c90cd3a1032ab35871/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+98
+99        <meta-data
+99-->[com.google.android.gms:play-services-basement:17.0.0] /home/krishan/.gradle/caches/transforms-2/files-2.1/dcffa74d8d015470a7eae32b9eb648c7/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+100            android:name="com.google.android.gms.version"
+100-->[com.google.android.gms:play-services-basement:17.0.0] /home/krishan/.gradle/caches/transforms-2/files-2.1/dcffa74d8d015470a7eae32b9eb648c7/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+101            android:value="@integer/google_play_services_version" />
+101-->[com.google.android.gms:play-services-basement:17.0.0] /home/krishan/.gradle/caches/transforms-2/files-2.1/dcffa74d8d015470a7eae32b9eb648c7/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+102    </application>
+103
+104</manifest>
