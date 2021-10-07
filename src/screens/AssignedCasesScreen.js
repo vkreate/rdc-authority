@@ -52,7 +52,7 @@ class AssignedCasesScreen extends Component {
     );
   }
   backButtonHandler = () => {
-    this.props.navigation.navigate('Home');
+    this.props.navigation.navigate('Home1');
     return true;
   };
 
@@ -60,6 +60,7 @@ class AssignedCasesScreen extends Component {
     this.props.ProductStore.getAssignedCases(this.state.assignedCaseType);
     this.unsubscribe = this.props.navigation.addListener('focus', () => {
       this.props.ProductStore.resetReportData();
+      this.props.ProductStore.getAssignedCases(this.state.assignedCaseType);
     });
   }
 

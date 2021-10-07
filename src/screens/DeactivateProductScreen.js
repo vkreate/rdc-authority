@@ -12,6 +12,7 @@ import {
   TouchableOpacity,
   TextInput,
   Text,
+  Alert,
 } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome5';
 import {inject, observer} from 'mobx-react';
@@ -67,7 +68,7 @@ class DeactivateProduct extends Component {
     );
   }
   backButtonHandler = () => {
-    this.props.navigation.navigate('Home');
+    this.props.navigation.navigate('Home1');
     return true;
   };
 
@@ -141,6 +142,9 @@ class DeactivateProduct extends Component {
         type: null,
         code: null,
       });
+      this.props.navigation.navigate("Home1")
+      Alert.alert("Deactivated successsfully")
+
     }
   };
 

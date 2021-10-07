@@ -146,7 +146,7 @@ class ProductReportScreen extends Component {
     );
   }
   backButtonHandler = () => {
-    this.props.navigation.navigate('Home');
+    this.props.navigation.navigate('Home1');
     return true;
   };
 
@@ -328,6 +328,7 @@ class ProductReportScreen extends Component {
         description: null,
         selectUploadImageType: null,
       });
+      
     }
   };
 

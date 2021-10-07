@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {View, StyleSheet, ImageBackground, Image} from 'react-native';
+import {View, StyleSheet, ImageBackground, Image,Dimensions} from 'react-native';
 import imagePath from '../Utilities/ImagePath';
 
 import SplashScreen from 'react-native-splash-screen';
@@ -12,7 +12,7 @@ import COLORS from '../Utilities/Colors';
 import CopyRight from '../ReusableComponents/CopyRight';
 import SplashFooter from '../ReusableComponents/SplashFooter';
 import AppRouter from '../Routes/AppRouter';
-
+const win = Dimensions.get('window');
 class Login extends Component {
   constructor(props) {
     super(props);
@@ -23,13 +23,13 @@ class Login extends Component {
     const data = await ReadItem('role');
     global.role = data;
     if (token === null) {
-      setTimeout(() => {
+     setTimeout(() => {
         SplashScreen.hide();
         this.props.navigation.navigate('Login');
-      }, 2000);
-    } else {
+      }, 2000); 
+    }  else {
       <AppRouter />;
-    }
+    } 
   }
   render() {
     return (
@@ -53,10 +53,16 @@ class Login extends Component {
                 fontWeight: 'bold',
               }}>
               RDC Estampillage
-            </CText>
+            </CText> 
             <SplashFooter color="white" />
           </View>
-          <Image source={imagePath.FOOTER} style={{width: 430, height: 60, marginBottom: 10}} />
+          <View style={{height:55,paddingBottom:6}}>
+            <Image style={{flex:1,height:undefined,width:undefined,resizeMode:"stretch",}} source={imagePath.FOOTER}>
+
+            </Image>
+
+          </View>
+        {/*   <Image style={styles.image} source={imagePath.FOOTER} resizeMode={'contain'} style={{height: 55}} /> */}
         </ImageBackground>
       </View>
     );
@@ -74,4 +80,10 @@ const styles = StyleSheet.create({
     height: 190,
     resizeMode: 'contain',
   },
+  image: {
+    flex: 1,
+    alignSelf: 'stretch',
+    width: win.width,
+    height: win.height,
+}
 });

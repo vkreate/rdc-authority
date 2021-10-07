@@ -7,6 +7,16 @@
 import {observable, action, decorate} from 'mobx';
 import axios from 'axios';
 import {SaveItem, ReadItem} from '../Utilities/helpers/AsyncStorage';
+import {
+  PermissionsAndroid,
+  View,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  Linking,
+  BackHandler,
+  ToastAndroid
+} from 'react-native';
 class ProductStore {
   productDetailURL = '';
   product = {};
@@ -57,7 +67,7 @@ class ProductStore {
   };
 
   //API
-  getProductDetail = async (productDetailURL, latitude, longitude) => {
+  getProductDetail = async (productDetailURL, latitude, longitude,scan_id) => {
     this.product = {};
     this.productDetailURL = productDetailURL;
     this.setLoader(true);
@@ -68,17 +78,24 @@ class ProductStore {
     const data = {
       token: (await ReadItem('token')) ? await ReadItem('token') : this.token,
       location,
+      scan_id
     };
     let response = await axios.post(productDetailURL, data).catch(err => {
       this.setLoader(false);
       // alert(err);
+      ToastAndroid.show(err.response.data.message, ToastAndroid.SHORT)
     });
+    console.log("data11",response)
     this.setLoader(false);
+    // console.warn("ProductDetailscanned",response.data.product)
+      //console.log("ProductDetailscanned",response.data.product)
     if (response && response.data && response.data.product) {
+      console.warn("ProductDetailscanned",response.data.product)
+      console.log("ProductDetailscanned",response.data.product)
       this.product = response.data.product;
       return response.data.success;
     } else {
-      return true;
+      return false;
     }
   };
 

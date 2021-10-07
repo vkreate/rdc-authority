@@ -26,6 +26,7 @@ class ScanHistory extends Component {
     this.unsubscribe = this.props.navigation.addListener('focus', () => {
       console.log('focus');
       this.props.ProductStore.resetReportData();
+      this.props.ProductStore.getScanedList();
     });
   }
 
@@ -33,13 +34,14 @@ class ScanHistory extends Component {
     this.unsubscribe();
   }
 
-  productDetails = async url => {
+  productDetails = async (url,scan_id) => {
     let latitude = this.props.OtpStore.latitude;
     let longitude = this.props.OtpStore.longitude;
     let response = await this.props.ProductStore.getProductDetail(
       url,
       latitude,
       longitude,
+      scan_id
     );
     if (response) {
       this.props.navigation.navigate('ProductDetail');
@@ -64,7 +66,7 @@ class ScanHistory extends Component {
                 <TouchableOpacity
                   key={index}
                   style={styles.container}
-                  onPress={() => this.productDetails(item.url)}>
+                  onPress={() => this.productDetails(item.url,item.scan_id)}>
                   <View style={styles.ListItem}>
                     <View style={styles.ListRow}>
                       <CText style={styles.HeadingText}>Product Name :</CText>

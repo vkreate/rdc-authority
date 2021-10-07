@@ -35,7 +35,7 @@ class AssignedCasesList extends Component {
     );
   }
   backButtonHandler = () => {
-    this.props.navigation.navigate('Home');
+    this.props.navigation.navigate('Home1');
     return true;
   };
 
@@ -65,7 +65,7 @@ class AssignedCasesList extends Component {
                         <CText style={styles.CaseText}>{caseObj.id}</CText>
                       </View>
                       <View style={styles.CaseItemContainer}>
-                        <CText style={styles.CaseText}>
+                        <CText style={[styles.CaseText,{fontSize:16}]}>
                           {caseObj.description}
                         </CText>
                       </View>
@@ -83,7 +83,7 @@ class AssignedCasesList extends Component {
                     <View style={styles.CaseRightContainer}>
                       <Icon
                         name="angle-right"
-                        size={40}
+                        size={26}
                         color={COLORS.SECONDARY_COLOR}
                       />
                     </View>

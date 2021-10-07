@@ -1,158 +1,166 @@
 [
     {
-        "merged": "/var/www/projects/vkreate/tracesci-master/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
-        "source": "/var/www/projects/vkreate/tracesci-master/android/app/src/main/res/drawable-xxxhdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+        "merged": "D:\\NewProject\\rdc-authority\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "D:\\NewProject\\rdc-authority\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
     },
     {
-        "merged": "/var/www/projects/vkreate/tracesci-master/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_home.png.flat",
-        "source": "/var/www/projects/vkreate/tracesci-master/android/app/src/main/res/drawable-mdpi/src_assets_home.png"
+        "merged": "D:\\NewProject\\rdc-authority\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\NewProject\\rdc-authority\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/var/www/projects/vkreate/tracesci-master/android/app/build/intermediates/res/merged/debug/drawable-hdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
-        "source": "/var/www/projects/vkreate/tracesci-master/android/app/src/main/res/drawable-hdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+        "merged": "D:\\NewProject\\rdc-authority\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\NewProject\\rdc-authority\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/var/www/projects/vkreate/tracesci-master/android/app/build/intermediates/res/merged/debug/drawable-mdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
-        "source": "/var/www/projects/vkreate/tracesci-master/android/app/src/main/res/drawable-mdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+        "merged": "D:\\NewProject\\rdc-authority\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_assets_profile.png.flat",
+        "source": "D:\\NewProject\\rdc-authority\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_profile.png"
     },
     {
-        "merged": "/var/www/projects/vkreate/tracesci-master/android/app/build/intermediates/res/merged/debug/raw_node_modules_reactnativevectoricons_glyphmaps_fontawesome5free.json.flat",
-        "source": "/var/www/projects/vkreate/tracesci-master/android/app/src/main/res/raw/node_modules_reactnativevectoricons_glyphmaps_fontawesome5free.json"
+        "merged": "D:\\NewProject\\rdc-authority\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_assets_tpluminare.png.flat",
+        "source": "D:\\NewProject\\rdc-authority\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_tpluminare.png"
     },
     {
-        "merged": "/var/www/projects/vkreate/tracesci-master/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_old.png.flat",
-        "source": "/var/www/projects/vkreate/tracesci-master/android/app/src/main/res/mipmap-hdpi/ic_launcher_old.png"
+        "merged": "D:\\NewProject\\rdc-authority\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\NewProject\\rdc-authority\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/var/www/projects/vkreate/tracesci-master/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_flagbg.jpg.flat",
-        "source": "/var/www/projects/vkreate/tracesci-master/android/app/src/main/res/drawable-mdpi/src_assets_flagbg.jpg"
+        "merged": "D:\\NewProject\\rdc-authority\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "D:\\NewProject\\rdc-authority\\android\\app\\src\\main\\res\\drawable-xxhdpi\\node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
     },
     {
-        "merged": "/var/www/projects/vkreate/tracesci-master/android/app/build/intermediates/res/merged/debug/raw_node_modules_reactnativevectoricons_glyphmaps_fontawesome5free_meta.json.flat",
-        "source": "/var/www/projects/vkreate/tracesci-master/android/app/src/main/res/raw/node_modules_reactnativevectoricons_glyphmaps_fontawesome5free_meta.json"
+        "merged": "D:\\NewProject\\rdc-authority\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\NewProject\\rdc-authority\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/var/www/projects/vkreate/tracesci-master/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/var/www/projects/vkreate/tracesci-master/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "D:\\NewProject\\rdc-authority\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "D:\\NewProject\\rdc-authority\\android\\app\\src\\main\\res\\drawable-xxxhdpi\\node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
     },
     {
-        "merged": "/var/www/projects/vkreate/tracesci-master/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "/var/www/projects/vkreate/tracesci-master/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "D:\\NewProject\\rdc-authority\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_assets_complain.png.flat",
+        "source": "D:\\NewProject\\rdc-authority\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_complain.png"
     },
     {
-        "merged": "/var/www/projects/vkreate/tracesci-master/android/app/build/intermediates/res/merged/debug/drawable-xhdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
-        "source": "/var/www/projects/vkreate/tracesci-master/android/app/src/main/res/drawable-xhdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+        "merged": "D:\\NewProject\\rdc-authority\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "D:\\NewProject\\rdc-authority\\android\\app\\src\\main\\res\\drawable-xxxhdpi\\node_modules_reactnavigation_stack_src_views_assets_backicon.png"
     },
     {
-        "merged": "/var/www/projects/vkreate/tracesci-master/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_logo.png.flat",
-        "source": "/var/www/projects/vkreate/tracesci-master/android/app/src/main/res/drawable-mdpi/src_assets_logo.png"
+        "merged": "D:\\NewProject\\rdc-authority\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnavigation_stack_src_views_assets_backiconmask.png.flat",
+        "source": "D:\\NewProject\\rdc-authority\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnavigation_stack_src_views_assets_backiconmask.png"
     },
     {
-        "merged": "/var/www/projects/vkreate/tracesci-master/android/app/build/intermediates/res/merged/debug/raw_app.json.flat",
-        "source": "/var/www/projects/vkreate/tracesci-master/android/app/src/main/res/raw/app.json"
+        "merged": "D:\\NewProject\\rdc-authority\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_assets_cigarss.png.flat",
+        "source": "D:\\NewProject\\rdc-authority\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_cigarss.png"
     },
     {
-        "merged": "/var/www/projects/vkreate/tracesci-master/android/app/build/intermediates/res/merged/debug/raw_node_modules_reactnativevectoricons_glyphmaps_fontawesome.json.flat",
-        "source": "/var/www/projects/vkreate/tracesci-master/android/app/src/main/res/raw/node_modules_reactnativevectoricons_glyphmaps_fontawesome.json"
+        "merged": "D:\\NewProject\\rdc-authority\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\NewProject\\rdc-authority\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/var/www/projects/vkreate/tracesci-master/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_applogo.png.flat",
-        "source": "/var/www/projects/vkreate/tracesci-master/android/app/src/main/res/drawable-mdpi/src_assets_applogo.png"
+        "merged": "D:\\NewProject\\rdc-authority\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_assets_tataproject.png.flat",
+        "source": "D:\\NewProject\\rdc-authority\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_tataproject.png"
     },
     {
-        "merged": "/var/www/projects/vkreate/tracesci-master/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_tataproject.png.flat",
-        "source": "/var/www/projects/vkreate/tracesci-master/android/app/src/main/res/drawable-mdpi/src_assets_tataproject.png"
+        "merged": "D:\\NewProject\\rdc-authority\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_assets_plug.png.flat",
+        "source": "D:\\NewProject\\rdc-authority\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_plug.png"
     },
     {
-        "merged": "/var/www/projects/vkreate/tracesci-master/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_logo_bg.jpg.flat",
-        "source": "/var/www/projects/vkreate/tracesci-master/android/app/src/main/res/drawable-mdpi/src_assets_logo_bg.jpg"
+        "merged": "D:\\NewProject\\rdc-authority\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\NewProject\\rdc-authority\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/var/www/projects/vkreate/tracesci-master/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/var/www/projects/vkreate/tracesci-master/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "D:\\NewProject\\rdc-authority\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\NewProject\\rdc-authority\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/var/www/projects/vkreate/tracesci-master/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_tpluminare.png.flat",
-        "source": "/var/www/projects/vkreate/tracesci-master/android/app/src/main/res/drawable-mdpi/src_assets_tpluminare.png"
+        "merged": "D:\\NewProject\\rdc-authority\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_assets_logo.png.flat",
+        "source": "D:\\NewProject\\rdc-authority\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_logo.png"
     },
     {
-        "merged": "/var/www/projects/vkreate/tracesci-master/android/app/build/intermediates/res/merged/debug/drawable-xhdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
-        "source": "/var/www/projects/vkreate/tracesci-master/android/app/src/main/res/drawable-xhdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+        "merged": "D:\\NewProject\\rdc-authority\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_assets_alcohol.png.flat",
+        "source": "D:\\NewProject\\rdc-authority\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_alcohol.png"
     },
     {
-        "merged": "/var/www/projects/vkreate/tracesci-master/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/var/www/projects/vkreate/tracesci-master/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "D:\\NewProject\\rdc-authority\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\NewProject\\rdc-authority\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "/var/www/projects/vkreate/tracesci-master/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/var/www/projects/vkreate/tracesci-master/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "D:\\NewProject\\rdc-authority\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "D:\\NewProject\\rdc-authority\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnavigation_stack_src_views_assets_backicon.png"
     },
     {
-        "merged": "/var/www/projects/vkreate/tracesci-master/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
-        "source": "/var/www/projects/vkreate/tracesci-master/android/app/src/main/res/drawable-xxhdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+        "merged": "D:\\NewProject\\rdc-authority\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw_app.json.flat",
+        "source": "D:\\NewProject\\rdc-authority\\android\\app\\src\\main\\res\\raw\\app.json"
     },
     {
-        "merged": "/var/www/projects/vkreate/tracesci-master/android/app/build/intermediates/res/merged/debug/drawable-mdpi_node_modules_reactnativepaper_src_assets_backchevron.png.flat",
-        "source": "/var/www/projects/vkreate/tracesci-master/android/app/src/main/res/drawable-mdpi/node_modules_reactnativepaper_src_assets_backchevron.png"
+        "merged": "D:\\NewProject\\rdc-authority\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw_node_modules_reactnativevectoricons_glyphmaps_fontawesome.json.flat",
+        "source": "D:\\NewProject\\rdc-authority\\android\\app\\src\\main\\res\\raw\\node_modules_reactnativevectoricons_glyphmaps_fontawesome.json"
     },
     {
-        "merged": "/var/www/projects/vkreate/tracesci-master/android/app/build/intermediates/res/merged/debug/drawable-hdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
-        "source": "/var/www/projects/vkreate/tracesci-master/android/app/src/main/res/drawable-hdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+        "merged": "D:\\NewProject\\rdc-authority\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativepaper_src_assets_backchevron.png.flat",
+        "source": "D:\\NewProject\\rdc-authority\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativepaper_src_assets_backchevron.png"
     },
     {
-        "merged": "/var/www/projects/vkreate/tracesci-master/android/app/build/intermediates/res/merged/debug/drawable-mdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
-        "source": "/var/www/projects/vkreate/tracesci-master/android/app/src/main/res/drawable-mdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+        "merged": "D:\\NewProject\\rdc-authority\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\NewProject\\rdc-authority\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/var/www/projects/vkreate/tracesci-master/android/app/build/intermediates/res/merged/debug/drawable-mdpi_node_modules_reactnavigation_stack_src_views_assets_backiconmask.png.flat",
-        "source": "/var/www/projects/vkreate/tracesci-master/android/app/src/main/res/drawable-mdpi/node_modules_reactnavigation_stack_src_views_assets_backiconmask.png"
+        "merged": "D:\\NewProject\\rdc-authority\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_assets_applogo.png.flat",
+        "source": "D:\\NewProject\\rdc-authority\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_applogo.png"
     },
     {
-        "merged": "/var/www/projects/vkreate/tracesci-master/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_complain.png.flat",
-        "source": "/var/www/projects/vkreate/tracesci-master/android/app/src/main/res/drawable-mdpi/src_assets_complain.png"
+        "merged": "D:\\NewProject\\rdc-authority\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "D:\\NewProject\\rdc-authority\\android\\app\\src\\main\\res\\drawable-hdpi\\node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
     },
     {
-        "merged": "/var/www/projects/vkreate/tracesci-master/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/var/www/projects/vkreate/tracesci-master/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "D:\\NewProject\\rdc-authority\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw_node_modules_reactnativevectoricons_glyphmaps_fontawesome5free_meta.json.flat",
+        "source": "D:\\NewProject\\rdc-authority\\android\\app\\src\\main\\res\\raw\\node_modules_reactnativevectoricons_glyphmaps_fontawesome5free_meta.json"
     },
     {
-        "merged": "/var/www/projects/vkreate/tracesci-master/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/var/www/projects/vkreate/tracesci-master/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "D:\\NewProject\\rdc-authority\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "D:\\NewProject\\rdc-authority\\android\\app\\src\\main\\res\\drawable-xhdpi\\node_modules_reactnavigation_stack_src_views_assets_backicon.png"
     },
     {
-        "merged": "/var/www/projects/vkreate/tracesci-master/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_plug.png.flat",
-        "source": "/var/www/projects/vkreate/tracesci-master/android/app/src/main/res/drawable-mdpi/src_assets_plug.png"
+        "merged": "D:\\NewProject\\rdc-authority\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_assets_footer.png.flat",
+        "source": "D:\\NewProject\\rdc-authority\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_footer.png"
     },
     {
-        "merged": "/var/www/projects/vkreate/tracesci-master/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_footer.png.flat",
-        "source": "/var/www/projects/vkreate/tracesci-master/android/app/src/main/res/drawable-mdpi/src_assets_footer.png"
+        "merged": "D:\\NewProject\\rdc-authority\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_assets_home.png.flat",
+        "source": "D:\\NewProject\\rdc-authority\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_home.png"
     },
     {
-        "merged": "/var/www/projects/vkreate/tracesci-master/android/app/build/intermediates/res/merged/debug/raw_node_modules_reactnativevectoricons_glyphmaps_materialcommunityicons.json.flat",
-        "source": "/var/www/projects/vkreate/tracesci-master/android/app/src/main/res/raw/node_modules_reactnativevectoricons_glyphmaps_materialcommunityicons.json"
+        "merged": "D:\\NewProject\\rdc-authority\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "D:\\NewProject\\rdc-authority\\android\\app\\src\\main\\res\\drawable-xhdpi\\node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
     },
     {
-        "merged": "/var/www/projects/vkreate/tracesci-master/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
-        "source": "/var/www/projects/vkreate/tracesci-master/android/app/src/main/res/drawable-xxhdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+        "merged": "D:\\NewProject\\rdc-authority\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_assets_water.png.flat",
+        "source": "D:\\NewProject\\rdc-authority\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_water.png"
     },
     {
-        "merged": "/var/www/projects/vkreate/tracesci-master/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round_old.png.flat",
-        "source": "/var/www/projects/vkreate/tracesci-master/android/app/src/main/res/mipmap-hdpi/ic_launcher_round_old.png"
+        "merged": "D:\\NewProject\\rdc-authority\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_assets_logo_bg.jpg.flat",
+        "source": "D:\\NewProject\\rdc-authority\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_logo_bg.jpg"
     },
     {
-        "merged": "/var/www/projects/vkreate/tracesci-master/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/var/www/projects/vkreate/tracesci-master/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "D:\\NewProject\\rdc-authority\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw_node_modules_reactnativevectoricons_glyphmaps_fontawesome5free.json.flat",
+        "source": "D:\\NewProject\\rdc-authority\\android\\app\\src\\main\\res\\raw\\node_modules_reactnativevectoricons_glyphmaps_fontawesome5free.json"
     },
     {
-        "merged": "/var/www/projects/vkreate/tracesci-master/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
-        "source": "/var/www/projects/vkreate/tracesci-master/android/app/src/main/res/drawable-xxxhdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+        "merged": "D:\\NewProject\\rdc-authority\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "D:\\NewProject\\rdc-authority\\android\\app\\src\\main\\res\\drawable-xxhdpi\\node_modules_reactnavigation_stack_src_views_assets_backicon.png"
     },
     {
-        "merged": "/var/www/projects/vkreate/tracesci-master/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "/var/www/projects/vkreate/tracesci-master/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "D:\\NewProject\\rdc-authority\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "D:\\NewProject\\rdc-authority\\android\\app\\src\\main\\res\\drawable-hdpi\\node_modules_reactnavigation_stack_src_views_assets_backicon.png"
     },
     {
-        "merged": "/var/www/projects/vkreate/tracesci-master/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_profile.png.flat",
-        "source": "/var/www/projects/vkreate/tracesci-master/android/app/src/main/res/drawable-mdpi/src_assets_profile.png"
+        "merged": "D:\\NewProject\\rdc-authority\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_assets_flagbg.jpg.flat",
+        "source": "D:\\NewProject\\rdc-authority\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_flagbg.jpg"
+    },
+    {
+        "merged": "D:\\NewProject\\rdc-authority\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw_node_modules_reactnativevectoricons_glyphmaps_materialcommunityicons.json.flat",
+        "source": "D:\\NewProject\\rdc-authority\\android\\app\\src\\main\\res\\raw\\node_modules_reactnativevectoricons_glyphmaps_materialcommunityicons.json"
+    },
+    {
+        "merged": "D:\\NewProject\\rdc-authority\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\NewProject\\rdc-authority\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     }
 ]

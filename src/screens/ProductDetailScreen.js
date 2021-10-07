@@ -12,7 +12,7 @@ import {
   Image,
   ScrollView,
   TouchableOpacity,
-  Modal,
+  Modal,Text
 } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome5';
 import {inject, observer} from 'mobx-react';
@@ -36,7 +36,7 @@ class ProductDetailScreen extends Component {
     );
   }
   backButtonHandler = () => {
-    this.props.navigation.navigate('Home');
+    this.props.navigation.navigate('Home1');
     return true;
   };
 
@@ -83,6 +83,7 @@ class ProductDetailScreen extends Component {
       manufactured_on,
       expiry_on,
       image,
+      label_image
     } = this.props.ProductStore.product;
 
     const {role} = this.props.OtpStore;
@@ -93,6 +94,7 @@ class ProductDetailScreen extends Component {
             {/* Modal */}
             <Modal visible={this.state.isShowMore} animationType="slide">
               <View style={productDetailStyle.ModalProductDetailContainer}>
+                <ScrollView  showsVerticalScrollIndicator={false}>
                 <TouchableOpacity onPress={this.modalHandler}>
                   <View style={productDetailStyle.CloseModalButton}>
                     <Icon
@@ -120,12 +122,12 @@ class ProductDetailScreen extends Component {
                     Description
                   </CText>
                   <CText style={productDetailStyle.ScannedText}>
-                    {description}
+                  {description ? description:"No description"}
                   </CText>
                 </View>
                 <View style={productDetailStyle.ItemContainer}>
                   <CText style={productDetailStyle.HeadingText}>
-                    Batch Code
+                    Batch code
                   </CText>
                   <CText style={productDetailStyle.ScannedText}>
                     {batch_code}
@@ -133,7 +135,7 @@ class ProductDetailScreen extends Component {
                 </View>
                 <View style={productDetailStyle.ItemContainer}>
                   <CText style={productDetailStyle.HeadingText}>
-                    Product Serial No
+                    Product serial no
                   </CText>
                   <CText style={productDetailStyle.ScannedText}>
                     {code_data}
@@ -141,7 +143,7 @@ class ProductDetailScreen extends Component {
                 </View>
                 <View style={productDetailStyle.ItemContainer}>
                   <CText style={productDetailStyle.HeadingText}>
-                    Manufactured On
+                    Manufactured on
                   </CText>
                   <CText style={productDetailStyle.ScannedText}>
                     {manufactured_on}
@@ -149,7 +151,7 @@ class ProductDetailScreen extends Component {
                 </View>
                 <View style={productDetailStyle.ItemContainer}>
                   <CText style={productDetailStyle.HeadingText}>
-                    Expiry On
+                    Expiry on
                   </CText>
                   <CText style={productDetailStyle.ScannedText}>
                     {expiry_on}
@@ -166,7 +168,7 @@ class ProductDetailScreen extends Component {
                 <View style={productDetailStyle.ButtonStyle}>
                   {role === 'dgda-inspector' && (
                     <CText style={productDetailStyle.issueText}>
-                      Found Issue ?
+                      Found issue ?
                     </CText>
                   )}
                   <TouchableOpacity onPress={this.ReportHandler}>
@@ -179,6 +181,10 @@ class ProductDetailScreen extends Component {
                     </View>
                   </TouchableOpacity>
                 </View>
+                <View style={{height:30}}>
+
+                </View>
+                </ScrollView>
               </View>
             </Modal>
             {/* <ProductDetailModal ref={this.modalRef} data={this.props.ProductStore.product}></ProductDetailModal> */}
@@ -187,29 +193,28 @@ class ProductDetailScreen extends Component {
               persistentScrollbar={false}>
               <View style={productDetailStyle.ProductDetailContainer}>
                 <View style={productDetailStyle.Heading}>
-                  <CText style={productDetailStyle.HeadingText}>Hey,</CText>
+               
                   <CText style={productDetailStyle.HeadingText}>
-                    You will love to see that this product is,
-                  </CText>
-                  <CText style={productDetailStyle.ProductNameText}>
+                   This product is <CText style={productDetailStyle.ProductNameText}>
                     GENUINE
                   </CText>
-                </View>
+                  </CText>
+                                 </View>
                 <View style={productDetailStyle.ItemContainer}>
                   <CText style={productDetailStyle.HeadingText}>
-                    No. of time Scanned,
-                  </CText>
-                  <CText style={productDetailStyle.ScannedText}>
+                    No. of time scanned:  <CText style={productDetailStyle.ScannedText}>
                     {scan_count}
                   </CText>
+                  </CText>
+                 
                 </View>
                 <View style={productDetailStyle.ItemContainer}>
                   <CText style={productDetailStyle.HeadingText}>
-                    Date / Time of last Scan
-                  </CText>
-                  <CText style={productDetailStyle.ScannedText}>
+                    Date / Time of last scan  <CText style={productDetailStyle.ScannedText}>
                     {last_scanned}
                   </CText>
+                  </CText>
+                 
                 </View>
                 <View style={productDetailStyle.ItemContainer}>
                   <Image
@@ -217,13 +222,37 @@ class ProductDetailScreen extends Component {
                     style={{width: '100%', height: 400}}
                   />
                 </View>
-                <TouchableOpacity onPress={this.modalHandler}>
-                  <CText style={productDetailStyle.LoadMoreText}>
-                    Load More
-                  </CText>
+                {label_image?
+                <View style={productDetailStyle.ItemContainer}>
+                  <Image
+                    source={{uri: label_image}}
+                    style={{width: '100%', height: 400,resizeMode:"contain"}}
+                  />
+                </View>
+                :
+                null
+              }
+                <Text style={{fontSize:18,alignSelf:"center",textAlign:"center",marginBottom:30}}>
+                Click on More Information for product details.
+                </Text>
+           
+              </View>
+              <View style={{height:50}}>
+
+</View>
+            </ScrollView>
+            <View style={{height:50,width:"100%",position:"absolute",backgroundColor:"white",bottom:0,flexDirection:"row",elevation:2,borderTopWidth:.5,borderColor:"grey"}}>
+              <TouchableOpacity onPress={()=>{this.modalHandler()}} style={{justifyContent:"center",alignItems:"center",flex:1,backgroundColor:"white",borderRightWidth:.5,elevation:1}}>
+                <Text style={{fontSize:16,color:COLORS.SECONDARY_COLOR}}>
+                  More Information
+                </Text>
+                </TouchableOpacity>
+                <TouchableOpacity onPress={()=>{this.ReportHandler()}} style={{justifyContent:"center",alignItems:"center",flex:1,backgroundColor:COLORS.SECONDARY_COLOR,elevation:1}}>
+                <Text style={{fontSize:16}}>
+                Deactivate Product
+                </Text>
                 </TouchableOpacity>
               </View>
-            </ScrollView>
           </View>
         ) : (
           !Object.keys(this.props.ProductStore.product).length && (

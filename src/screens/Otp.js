@@ -91,7 +91,16 @@ class Otp extends Component {
       let response = await otpInput(phoneNumber, otp);
       console.log(response, 'response:::: in otp screem');
       if (response.success === true) {
+        if(response.profile.role == "dgda-inspector"){
+        console.warn(response.profile.role)
         this.props.LoginStore.setToken(response.token, phoneNumber);
+        }
+        else{
+          this.setState({
+            error: 'Please Enter valid user',
+            modelVisible: true,
+          });
+        }
       } else {
         console.log('inside else');
         this.setState({

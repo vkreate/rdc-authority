@@ -6,6 +6,7 @@
  */
 import {observable, action, decorate} from 'mobx';
 import axios from 'axios';
+import AsyncStorage from '@react-native-community/async-storage';
 import {
   DeleteItem,
   SaveItem,
@@ -28,8 +29,10 @@ class LoginStore {
 
   setToken = async (token, phoneNumber) => {
     this.token = token;
+    console.warn("kk",token)
     await SaveItem('token', token);
     await SaveItem('phoneNumber', phoneNumber);
+   
   };
 
   signOut = async () => {

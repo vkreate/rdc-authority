@@ -102,6 +102,7 @@ class Login extends Component {
       let response = await login(phoneNumber);
       console.log(response, 'response::::::::::::::::: in screen');
       if (response.success === true) {
+        console.warn(response)
         setLoader(false);
         this.props.navigation.navigate(CONSTANTS.SCREENS.OTP, {
           phoneNumber: phoneNumber,

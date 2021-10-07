@@ -7,7 +7,7 @@ export const productDetailStyle = StyleSheet.create({
   },
   ModalProductDetailContainer: {
     flex: 1,
-    marginLeft: 40,
+    marginLeft: 40,marginRight:30
   },
   Heading: {
     fontSize: 18,
@@ -34,7 +34,7 @@ export const productDetailStyle = StyleSheet.create({
   ProductNameText: {
     fontSize: 22,
     marginTop: 5,
-    color: '#00FF00',
+    color: '#03C04A',
     fontWeight: 'bold',
     textTransform: 'uppercase',
   },

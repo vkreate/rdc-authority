@@ -17,6 +17,7 @@ import CustomErrorFallback from '../Utilities/CustomErrorFallback';
 import 'react-native-gesture-handler';
 import ErrorBoundary from 'react-native-error-boundary';
 import {NavigationContainer} from '@react-navigation/native';
+import AsyncStorage from '@react-native-community/async-storage';
 
 @inject('OtpStore', 'LoginStore')
 @observer
@@ -41,7 +42,7 @@ class Main extends React.Component {
     if (nextAppState === 'background') {
       // Do something here on app background.
       console.log('App is in Background Mode.');
-      this.props.LoginStore.signOut();
+     //this.props.LoginStore.signOut();
     }
 
     if (nextAppState === 'active') {
@@ -56,6 +57,8 @@ class Main extends React.Component {
   };
   render() {
     const {token} = this.props.LoginStore;
+     
+    console.warn("toktok",token)
     return (
       <NavigationContainer>
         <StatusBar

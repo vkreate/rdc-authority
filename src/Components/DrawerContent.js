@@ -39,14 +39,26 @@ class DrawerContent extends React.Component {
               <View style={{flexDirection: 'row', marginTop: 15}}>
                 <View style={styles.UserInfo}>
                   <Title style={styles.Name}>Welcome</Title>
-                  <Caption style={styles.MobileNo}>+91{phoneNumber}</Caption>
+                  <Caption style={styles.MobileNo}>+243-{phoneNumber}</Caption>
                 </View>
               </View>
 
               <View style={styles.BottomLine}></View>
             </View>
+            
 
             <Drawer.Section style={styles.drawerSection}>
+            <DrawerItem
+                    activeTintColor="#2196f3"
+                    activeBackgroundColor="rgba(0, 0, 0, .04)"
+                    inactiveTintColor="rgba(0, 0, 0, .87)"
+                    inactiveBackgroundColor="transparent"
+                    labelStyle={{color: '#ffffff', fontSize: 18}}
+                    label="Information"
+                    onPress={() => {
+                      this.props.navigation.navigate('Information');
+                    }}
+                  />
               <DrawerItem
                 activeTintColor="#2196f3"
                 activeBackgroundColor="rgba(0, 0, 0, .04)"
@@ -55,7 +67,7 @@ class DrawerContent extends React.Component {
                 labelStyle={{color: '#ffffff', fontSize: 18}}
                 label="New Scan"
                 onPress={() => {
-                  this.props.navigation.navigate('Home');
+                  this.props.navigation.navigate('Home1');
                 }}
               />
               <DrawerItem
@@ -82,6 +94,7 @@ class DrawerContent extends React.Component {
                       this.props.navigation.navigate('AssignedCases');
                     }}
                   />
+                    
                   <DrawerItem
                     activeTintColor="#2196f3"
                     activeBackgroundColor="rgba(0, 0, 0, .04)"

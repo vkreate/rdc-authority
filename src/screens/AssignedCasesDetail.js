@@ -14,6 +14,7 @@ import {
   TextInput,
   Text,
   ScrollView,
+  Alert,
 } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome5';
 import {inject, observer} from 'mobx-react';
@@ -43,11 +44,11 @@ class AssignedCasesDetail extends Component {
       },
       items: [
         {
-          label: 'Closed',
-          value: 'Closed',
-          key: 'Closed',
+          label: 'Close',
+          value: 'Close',
+          key: 'Close',
           color: COLORS.SECONDARY_COLOR,
-          inputLabel: 'Closed',
+          inputLabel: 'Close',
         },
         {
           label: 'Open',
@@ -94,7 +95,7 @@ class AssignedCasesDetail extends Component {
     let token = (await ReadItem('token')) ? await ReadItem('token') : null;
     let data = {
       token: token,
-      status: status === 'Closed' ? '0' : '1',
+      status: status === 'Close' ? '1' : '0',
       comments,
     };
     if (!data.comments || !data.comments?.trim()) {
@@ -113,8 +114,9 @@ class AssignedCasesDetail extends Component {
       });
     }
     if (updateCaseData && updateCaseData.success) {
+      Alert.alert(updateCaseData.message);
       this.setState({
-        error: updateCaseData.message,
+         error: updateCaseData.message,
         modelVisible: true,
       });
     }
@@ -143,7 +145,7 @@ class AssignedCasesDetail extends Component {
                   <CText style={styles.CaseText}>{caseDetail.id}</CText>
                 </View>
                 <View style={styles.CaseItemContainer}>
-                  <CText style={styles.CaseText}>
+                  <CText style={[styles.CaseText,{fontSize:18}]}>
                     {caseDetail.description}
                   </CText>
                 </View>
@@ -178,10 +180,18 @@ class AssignedCasesDetail extends Component {
                     {caseDetail?.manufacturer?.provinces.join(' , ')}
                   </CText>
                 </View>
+                <View style={styles.CaseItemContainer}>
+                  <CText style={styles.CaseItemText}>Status : </CText>
+                  <CText style={[styles.CaseItemTextWrap,{fontWeight:"bold"}]}>
+                  {caseDetail.status}
+                  </CText>
+                </View>
               </View>
             </View>
           </View>
+          {caseDetail.status != 'Closed'?
           <View style={styles.SelectPicker}>
+            
             <RNPickerSelect
               onValueChange={value => this.detailshandler({status: value})}
               enabled={false}
@@ -210,6 +220,9 @@ class AssignedCasesDetail extends Component {
               }}
             />
           </View>
+          :null
+  }
+          {caseDetail.status != 'Closed'?
           <View style={styles.textAreaContainer}>
             <TextInput
               style={styles.textArea}
@@ -223,6 +236,9 @@ class AssignedCasesDetail extends Component {
               value={caseDetail.comments}
             />
           </View>
+          :
+          null
+            }
           {caseDetail.image && (
             <>
               <View style={styles.uploadImageContainer}>
@@ -235,7 +251,8 @@ class AssignedCasesDetail extends Component {
               </View>
             </>
           )}
-          {caseDetail.status !== 'Closed' && (
+         
+          {caseDetail.status != 'Closed' && (
             <View style={styles.ButtonStyle}>
               <TouchableOpacity
                 onPress={() =>
